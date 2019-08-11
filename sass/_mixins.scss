@@ -1,0 +1,21 @@
+@mixin primary-color {
+	.has-primary-color {
+        	color: $primary;
+	}
+	.has-primary-background-color {
+        	color: $white;
+	        background-color: $primary;
+	}
+}
+
+@mixin secondary-color {
+	.has-secondary-color {
+        	color: $secondary;
+	}
+
+	.has-secondary-background-color {
+		color: $white;
+        	background-color: $secondary;
+	}
+}
+

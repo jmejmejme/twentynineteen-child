@@ -1,0 +1,48 @@
+/*
+Theme Name:     Twentynineteen-child
+Theme URI:      
+Description:    Twentynineteen child theme.
+Author:         Me
+Author URI:     
+Template:       twentynineteen
+Version:        0.1.0
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Typography
+# Gutenberg Blocks
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Gutenberg Blocks
+--------------------------------------------------------------*/
+/* line 2, sass/_mixins.scss */
+.entry .entry-content .has-primary-color,
+.entry .entry-content .has-primary-color {
+  color: #7654B4;
+}
+/* line 5, sass/_mixins.scss */
+.entry .entry-content .has-primary-background-color,
+.entry .entry-content .has-primary-background-color {
+  color: #fff;
+  background-color: #7654B4;
+}
+/* line 12, sass/_mixins.scss */
+.entry .entry-content .has-secondary-color,
+.entry .entry-content .has-secondary-color {
+  color: #220B5E;
+}
+/* line 16, sass/_mixins.scss */
+.entry .entry-content .has-secondary-background-color,
+.entry .entry-content .has-secondary-background-color {
+  color: #fff;
+  background-color: #220B5E;
+}
+/* line 10, sass/_blocks.scss */
+.entry .entry-content .wp-block-quote.is-style-fancy-quote,
+.entry .entry-content .wp-block-quote.is-style-fancy-quote {
+  border-width: 4px;
+}
